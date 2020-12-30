@@ -19,7 +19,7 @@ import requests
 
 url = ('http://newsapi.org/v2/top-headlines?'
        'country=br&'
-       'apiKey=00c2a287a719499b88d1402073612edd')
+       'apiKey=API_KEY_HERE')
 
 response = requests.get(url)
 print(response.json())
